@@ -99,13 +99,13 @@ class coffeeMachine{
         System.out.println("#---------------------#");
         System.out.println("#  AÑADIR PRODUCTOS   #");
         System.out.println("#--- mantenimiento ---#");
-        System.out.print("Agua...");
+        System.out.print("Agua...  ");
         addWater = keyBoard.nextInt();
-        System.out.print("Leche...");
+        System.out.print("Leche...  ");
         addMilk = keyBoard.nextInt();
-        System.out.print("Café...");
+        System.out.print("Café...  ");
         addCoffee = keyBoard.nextInt();
-        System.out.print("Vasos...");
+        System.out.print("Vasos...  ");
         addCups = keyBoard.nextInt();
 
         myCoffee.addProducts(addWater, addMilk, addCoffee, addCups);
